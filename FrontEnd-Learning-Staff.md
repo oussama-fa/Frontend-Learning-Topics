@@ -1,45 +1,37 @@
 - A. JavaScript topics :
 
-Variables (const, let)	                       All components [DONE]
-Arrow functions                                handleAddTicket, submit, callbacks [DONE]
-Functions and parameters                       Components and handlers [DONE]
-Objects	                                       Tickets, guides, FAQ items [DONE]
-Arrays	                                       tickets, guides, faqs [DONE]
-Array methods                                  .map(), .filter() [DONE]
-Destructuring                                  Component props [DONE]
-Template literals                              Ticket IDs [DONE]
-
-Spread operator	                               { ...p, subject: undefined }
-Optional chaining                              onOpen?.()
-Ternary operator                               Conditional rendering
-Logical AND (&&)                               Showing errors and badges
-Null values	                                   GuideItem \| null
-Callbacks	                                   onOpen, onClose, onAddTicket
-Event bubbling                                 GuideCard
-Event handling                                 onClick, onChange, onSubmit
-Object.keys()                                  Validation
-new Date()	                                   Future ticket timestamps
-
-Pay particular attention to these three concepts:
-1. Array methods, especially .map().
-2. Destructuring and the spread operator.
-3. Callbacks and event propagation.
+Variables (const, let)	        All components [DONE]
+Arrow functions                 handleAddTicket, submit, callbacks [DONE]
+Functions and parameters        Components and handlers [DONE]
+Objects	                        Tickets, guides, FAQ items [DONE]
+Arrays	                        tickets, guides, faqs [DONE]
+Array methods                   .map(), .filter() [DONE]
+Destructuring                   Component props [DONE]
+Template literals               Ticket IDs [DONE]
+Spread operator	                { ...p, subject: undefined } [DONE]
+Optional chaining               onOpen?.() [DONE]
+Ternary operator                Conditional rendering [DONE]
+Logical AND (&&)                Showing errors and badges [DONE]
+Callbacks	                    onOpen, onClose, onAddTicket [DONE]
+Event bubbling                  GuideCard [DONE]
+Event handling                  onClick, onChange, onSubmit [DONE]
 
 - B. TypeScript topics:
 
-Type aliases	                              type Ticket = {...}
-Object types	                              GuideItem
-Union types	                                  "normal" \| "high"
-Optional properties                           subtitle?
-Optional parameters                           onOpen?
-Function types                                onAddTicket: (ticket: Ticket) => void
-Array types                                   Ticket[]
-Generic types                                 useState<Ticket[]>([])
-Utility types                                 Partial<Record<...>>
-Type imports                                  import type { ReactNode }
-Type assertions                               as "normal" \| "high"
-Nullable types                                GuideItem \| null
-React types                                   React.FormEvent
+Array types	                    Ticket[]
+Object types                    GuideItem
+Type aliases                    type Ticket = {...}
+Optional properties             subtitle?
+Union types                     "normal" \| "high"
+Nullable types                  GuideItem \| null	
+Function types                  onAddTicket: (ticket: Ticket) => void
+Optional parameters             onOpen?
+Type imports                    import type { ReactNode }
+Type assertions                 as "normal" \| "high"
+Generic types                   useState<Ticket[]>([])
+Utility types                   Partial<Record<...>>
+React types                     React.FormEvent
+
 
 - C. React topics:
 

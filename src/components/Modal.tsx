@@ -36,8 +36,8 @@ export function Modal({ isOpen, onClose, children }: ModalProps) {
       onClick={handleBackdropClick}
       className="
         m-auto
-        w-[90%] max-w-2xl
-        max-h-[85vh]
+        w-[100%] max-w-5xl
+        max-h-[100vh]
         rounded-xl
         border border-gray-200
         bg-white
