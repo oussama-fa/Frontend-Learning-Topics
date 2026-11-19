@@ -64,3 +64,6 @@ Component imports                             @/components/...
 Path aliases                                  @/
 Server vs Client Components                   Your page uses client rendering
 Client-side interactions                      Dialogs, forms, state
+
+------------------------------------------------------------
+
